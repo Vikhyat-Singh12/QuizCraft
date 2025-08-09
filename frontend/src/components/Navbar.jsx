@@ -12,6 +12,7 @@ import {
 import {  useEffect, useState } from "react";
 
 export default function Navbar() {
+  const navigate = useNavigate();
   const { user, logout,getMe } = useAuthStore();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

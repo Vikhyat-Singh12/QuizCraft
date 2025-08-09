@@ -82,9 +82,10 @@ export const loginUser = async (req, res) => {
 
 export const logoutUser = async (req, res) => {
   try {
-    if (!req.cookies || !req.cookies.jwt) {
+    if (!req.cookies || !req.cookies["jwt-quizCraft"]) {
       return res.status(400).json({ message: "User not logged in" });
     }
+
 
     res.clearCookie("jwt-quizCraft", {
       httpOnly: true,
