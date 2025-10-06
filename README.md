@@ -6,7 +6,7 @@ A full-stack quiz platform where users can **register**, **log in**, **create qu
 
 ## 🚀 Live Demo
 
-* **Frontend + Backend** (Render): [[https://quizcraft-gycu.onrender.com](https://quizcraft-gycu.onrender.com/)]
+* **Frontend + Backend** (Render): [[https://quizcraft-di28.onrender.com](https://quizcraft-di28.onrender.com/)]
   ⚠️ Please wait 2–3 minutes for the Render server to wake up.
 
 ---
